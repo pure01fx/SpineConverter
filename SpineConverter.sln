@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bin35ToBin38", "Bin35ToBin38\Bin35ToBin38.csproj", "{EBB50193-1036-40A2-9A79-E9D8D0FB4894}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "BinaryStreamHelper", "BinaryStreamHelper\BinaryStreamHelper.shproj", "{FC13C4A9-7A31-4330-B737-C70AF3C07394}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		BinaryStreamHelper\BinaryStreamHelper.projitems*{ebb50193-1036-40a2-9a79-e9d8d0fb4894}*SharedItemsImports = 5
+		BinaryStreamHelper\BinaryStreamHelper.projitems*{fc13c4a9-7a31-4330-b737-c70af3c07394}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBB50193-1036-40A2-9A79-E9D8D0FB4894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBB50193-1036-40A2-9A79-E9D8D0FB4894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBB50193-1036-40A2-9A79-E9D8D0FB4894}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBB50193-1036-40A2-9A79-E9D8D0FB4894}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D615DCF-B81D-4FD5-9430-4254B3C61EFA}
+	EndGlobalSection
+EndGlobal
