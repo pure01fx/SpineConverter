@@ -254,8 +254,10 @@ namespace Pure01fx.SpineConverter
         }
         public void WriteInt32(int val)
         {
-            chars = BitConverter.GetBytes(val);
-            output.Write(chars, 0, chars.Length);
+            Write((byte)(val >> 24));
+            Write((byte)(val >> 16));
+            Write((byte)(val >> 8));
+            Write((byte)val);
         }
         public void Write(string? str)
         {

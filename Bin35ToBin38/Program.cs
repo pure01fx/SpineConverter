@@ -328,7 +328,7 @@ namespace Pure01fx.SpineConverter.Bin35ToBin38
         static void Main(string[] args)
         {
             Console.WriteLine("By: pure01fx <pure01fx@outlook.com>");
-            Console.WriteLine("Version: 211107");
+            Console.WriteLine("Version: 211108");
             SkeletonHappy s;
             Action dispose;
             if (args.Length > 0) s = SkeletonHappy.FromFile(args[0], out dispose);
