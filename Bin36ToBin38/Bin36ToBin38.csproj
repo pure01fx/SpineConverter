@@ -5,6 +5,10 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup Condition="'$(Configuration)'=='Release'">
+    <PackageReference Include="Microsoft.DotNet.ILCompiler" Version="7.0.0-*" />
+  </ItemGroup>
+
   <Import Project="..\BinaryStreamHelper\BinaryStreamHelper.projitems" Label="Shared" />
 
 </Project>
